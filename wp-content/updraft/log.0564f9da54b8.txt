@@ -1,0 +1,377 @@
+0000.000 (0) Opened log file at time: Fri, 19 Jan 2024 12:58:33 +0000 on https://bonlypurchase.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.24 (litespeed, Linux us-phx-web1203.main-hosting.eu 4.18.0-477.27.2.lve.el8.x86_64 #1 SMP Wed Oct 11 12:32:56 UTC 2023 x86_64) MySQL: 10.6.15-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 7.6M | 10M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 9178768.7 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.006 (0) Semaphore (fd, wp_options) being initialised
+0000.009 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.011 (0) Set semaphore last lock (fd) time to 2024-01-19 12:58:33
+0000.012 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=0564f9da54b8, file_nonce=0564f9da54b8 begun at=1705669113 (0s ago), job type=backup
+0000.018 (0) Scheduling a resumption (1) after 300 seconds (1705669413) in case this run gets aborted
+0000.039 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2831, wp-includes/formatting.php)
+0000.040 (0) Checking if we have a zip executable available
+0000.041 (0) Testing: /usr/bin/zip
+0000.045 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.046 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.047 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.049 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.057 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.059 (0) Working binary zip found: /usr/bin/zip
+0000.061 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.062 (0) Creation of backups of directories: beginning
+0000.064 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.651 (0) Total entities for the zip file: 1261 directories, 7278 files (0 skipped as non-modified), 143.3 MB
+0000.659 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.666 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.673 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.680 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.687 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.694 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.701 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.708 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.715 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.722 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9 MB, 7278 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.046 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: size is now: 3.70 MB
+0001.053 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1100 files added (on-disk size: 3765.8 KB)
+0001.060 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1200 files added (on-disk size: 3765.8 KB)
+0001.067 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1300 files added (on-disk size: 3765.8 KB)
+0001.073 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1400 files added (on-disk size: 3765.8 KB)
+0001.080 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1500 files added (on-disk size: 3765.8 KB)
+0001.087 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1600 files added (on-disk size: 3765.8 KB)
+0001.093 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1700 files added (on-disk size: 3765.8 KB)
+0001.100 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1800 files added (on-disk size: 3765.8 KB)
+0001.102 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 7278 files batched, 813 (1814) added so far); re-opening (prior size: 3765.8 KB)
+0001.959 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: size is now: 14.60 MB
+0001.962 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21037.1 KB/s)
+0001.963 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2244679927826, normalised_time=1.2168971087168, max_time=1.9625360965729, data points known=1, old_max_bytes=26214400, new_max_bytes=129252012)
+0001.970 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 1900 files added (on-disk size: 14981.7 KB)
+0001.977 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2000 files added (on-disk size: 14981.7 KB)
+0001.983 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2100 files added (on-disk size: 14981.7 KB)
+0001.990 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2200 files added (on-disk size: 14981.7 KB)
+0001.997 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2300 files added (on-disk size: 14981.7 KB)
+0002.003 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2400 files added (on-disk size: 14981.7 KB)
+0002.010 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2500 files added (on-disk size: 14981.7 KB)
+0002.017 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2600 files added (on-disk size: 14981.7 KB)
+0002.024 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2700 files added (on-disk size: 14981.7 KB)
+0002.033 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2800 files added (on-disk size: 14981.7 KB)
+0002.035 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 7278 files batched, 1001 (2815) added so far); re-opening (prior size: 14981.7 KB)
+0002.366 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 2900 files added (on-disk size: 17758.7 KB)
+0002.373 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3000 files added (on-disk size: 17758.7 KB)
+0002.382 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3100 files added (on-disk size: 17758.7 KB)
+0002.393 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3200 files added (on-disk size: 17758.7 KB)
+0002.399 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3300 files added (on-disk size: 17758.7 KB)
+0002.406 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3400 files added (on-disk size: 17758.7 KB)
+0002.413 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3500 files added (on-disk size: 17758.7 KB)
+0002.420 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3600 files added (on-disk size: 17758.7 KB)
+0002.427 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3700 files added (on-disk size: 17758.7 KB)
+0002.434 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3800 files added (on-disk size: 17758.7 KB)
+0002.436 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.8 MB, 7278 files batched, 1001 (3816) added so far); re-opening (prior size: 17758.7 KB)
+0003.099 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: size is now: 25.90 MB
+0003.106 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 3900 files added (on-disk size: 26569.4 KB)
+0003.113 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4000 files added (on-disk size: 26569.4 KB)
+0003.119 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4100 files added (on-disk size: 26569.4 KB)
+0003.127 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4200 files added (on-disk size: 26569.4 KB)
+0003.134 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4300 files added (on-disk size: 26569.4 KB)
+0003.141 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4400 files added (on-disk size: 26569.4 KB)
+0003.149 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4500 files added (on-disk size: 26569.4 KB)
+0003.161 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4600 files added (on-disk size: 26569.4 KB)
+0003.173 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4700 files added (on-disk size: 26569.4 KB)
+0003.182 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4800 files added (on-disk size: 26569.4 KB)
+0003.184 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17 MB, 7278 files batched, 1001 (4817) added so far); re-opening (prior size: 26569.4 KB)
+0003.882 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 4900 files added (on-disk size: 31341.1 KB)
+0003.891 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5000 files added (on-disk size: 31341.1 KB)
+0003.898 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5100 files added (on-disk size: 31341.1 KB)
+0003.905 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5200 files added (on-disk size: 31341.1 KB)
+0003.911 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5300 files added (on-disk size: 31341.1 KB)
+0003.918 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5400 files added (on-disk size: 31341.1 KB)
+0003.926 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5500 files added (on-disk size: 31341.1 KB)
+0003.936 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5600 files added (on-disk size: 31341.1 KB)
+0003.947 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5700 files added (on-disk size: 31341.1 KB)
+0003.958 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5800 files added (on-disk size: 31341.1 KB)
+0003.961 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 7278 files batched, 1001 (5818) added so far); re-opening (prior size: 31341.1 KB)
+0004.324 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 5900 files added (on-disk size: 34478 KB)
+0004.331 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6000 files added (on-disk size: 34478 KB)
+0004.338 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6100 files added (on-disk size: 34478 KB)
+0004.345 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6200 files added (on-disk size: 34478 KB)
+0004.352 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6300 files added (on-disk size: 34478 KB)
+0004.359 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6400 files added (on-disk size: 34478 KB)
+0004.370 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6500 files added (on-disk size: 34478 KB)
+0004.378 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6600 files added (on-disk size: 34478 KB)
+0004.389 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6700 files added (on-disk size: 34478 KB)
+0004.397 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6800 files added (on-disk size: 34478 KB)
+0004.400 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.1 MB, 7278 files batched, 1001 (6819) added so far); re-opening (prior size: 34478 KB)
+0004.982 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 6900 files added (on-disk size: 39098.4 KB)
+0004.989 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 7000 files added (on-disk size: 39098.4 KB)
+0004.999 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 7100 files added (on-disk size: 39098.4 KB)
+0005.010 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: 7200 files added (on-disk size: 39098.4 KB)
+0006.272 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.tmp: size is now: 51.40 MB
+0006.311 (0) Creating zip file manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.list-temp.tmp)
+0006.323 (0) Successfully created zip file manifest (size: 657541)
+0006.691 (0) Created plugins zip (0) - 52668.5 KB in 6.6 s (7949.4 KB/s) (sha1: 063c419ea93bb02f92fcec1a864a42d288217739, sha256: 701458c7ad3cee2bcef2465665bf230bfcc843c4dc8088e60ffa2dc4f4504222)
+0006.697 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.698 (0) No remote despatch: user chose no remote backup service
+0006.699 (0) Recording as successfully uploaded: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip
+0006.701 (0) Deleting zip manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip.list.tmp)
+0006.703 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.704 (0) Number of backup sets in history: 0; groups (db): 1
+0006.705 (0) Number of backup sets in history: 0; groups (files): 1
+0006.706 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0006.710 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.726 (0) Total entities for the zip file: 18 directories, 176 files (0 skipped as non-modified), 6.2 MB
+0006.732 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.923 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-themes.zip.tmp: size is now: 3.10 MB
+0006.927 (0) Creating zip file manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-themes.zip.list-temp.tmp)
+0006.928 (0) Successfully created zip file manifest (size: 10461)
+0006.954 (0) Created themes zip (0) - 3177.1 KB in 0.2 s (13100.5 KB/s) (sha1: e2a333bae38cfedfde42fa5cce65839a397fdab6, sha256: 9e7553b00155ee663283239a149aac626615eb1b8bcf3edb178f51462d799dd9)
+0006.957 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.958 (0) No remote despatch: user chose no remote backup service
+0006.959 (0) Recording as successfully uploaded: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-themes.zip
+0006.960 (0) Deleting zip manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-themes.zip.list.tmp)
+0006.962 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.963 (0) Number of backup sets in history: 0; groups (db): 1
+0006.964 (0) Number of backup sets in history: 0; groups (files): 1
+0006.965 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0006.968 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.969 (0) Looking for candidates to backup in: /home/u305902363/domains/bonlypurchase.com/public_html/wp-content/uploads
+0006.971 (0) finding files: 2017: adding to list (1)
+0006.972 (0) finding files: wpforms: adding to list (2)
+0006.973 (0) finding files: 2024: adding to list (3)
+0006.974 (0) finding files: 2013: adding to list (4)
+0006.975 (0) finding files: 2016: adding to list (5)
+0006.976 (0) finding files: 2018: adding to list (6)
+0006.977 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.030 (0) Total entities for the zip file: 14 directories, 600 files (0 skipped as non-modified), 16.4 MB
+0007.036 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.043 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.049 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.055 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.061 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.068 (0) Zip: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.208 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.tmp: size is now: 15.60 MB
+0007.213 (0) Creating zip file manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.list-temp.tmp)
+0007.215 (0) Successfully created zip file manifest (size: 31958)
+0007.331 (0) Created uploads zip (0) - 15973.1 KB in 0.4 s (45456.5 KB/s) (sha1: 7067ff8d0294493783cd3fb3d012b339ff513822, sha256: a74f4a79b65d3eea1004fee9f25b6f41718ab03ccfcea88ed1bfbdd1dbe7f45d)
+0007.334 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.335 (0) No remote despatch: user chose no remote backup service
+0007.336 (0) Recording as successfully uploaded: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip
+0007.338 (0) Deleting zip manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip.list.tmp)
+0007.340 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.341 (0) Number of backup sets in history: 0; groups (db): 1
+0007.342 (0) Number of backup sets in history: 0; groups (files): 1
+0007.343 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.347 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0007.349 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0007.356 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-mu-plugins.zip.tmp: size is now: 0.00 MB
+0007.359 (0) Creating zip file manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-mu-plugins.zip.list-temp.tmp)
+0007.360 (0) Successfully created zip file manifest (size: 121)
+0007.364 (0) Created mu-plugins zip (0) - 1.4 KB in 0 s (93.3 KB/s) (sha1: 59e2c16bda62f2028de78c2104abf547b0d69774, sha256: 36364bded8e4f593b1baf82d0ec31309804a97d4752a349812279fa1dbb75374)
+0007.366 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.367 (0) No remote despatch: user chose no remote backup service
+0007.368 (0) Recording as successfully uploaded: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-mu-plugins.zip
+0007.370 (0) Deleting zip manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-mu-plugins.zip.list.tmp)
+0007.372 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.373 (0) Number of backup sets in history: 0; groups (db): 1
+0007.374 (0) Number of backup sets in history: 0; groups (files): 1
+0007.375 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.380 (0) Beginning backup of other directories found in the content directory (index: 0)
+0007.381 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0007.383 (0) Looking for candidates to backup in: /home/u305902363/domains/bonlypurchase.com/public_html/wp-content
+0007.384 (0) finding files: plugins: skipping: this is the plugins directory
+0007.385 (0) finding files: upgrade: skipping: excluded by options
+0007.386 (0) finding files: .litespeed_conf.dat: adding to list (1)
+0007.388 (0) finding files: updraft: skipping: this is the updraft directory
+0007.389 (0) finding files: themes: skipping: this is the themes directory
+0007.390 (0) finding files: index.php: adding to list (2)
+0007.391 (0) finding files: uploads: skipping: this is the uploads directory
+0007.393 (0) finding files: object-cache.php: adding to list (3)
+0007.394 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0007.396 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0007.403 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-others.zip.tmp: size is now: 0.00 MB
+0007.407 (0) Creating zip file manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-others.zip.list-temp.tmp)
+0007.408 (0) Successfully created zip file manifest (size: 97)
+0007.413 (0) Created others zip (0) - 1.4 KB in 0 s (83.9 KB/s) (sha1: 6480b99017633b3cd732d3ae9861db7bdca33e3c, sha256: 941b42d3fdaa5c1d491fb04fffe02c42415a71f5f2e768c5cff3cb2adff52685)
+0007.416 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.418 (0) No remote despatch: user chose no remote backup service
+0007.419 (0) Recording as successfully uploaded: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-others.zip
+0007.421 (0) Deleting zip manifest (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-others.zip.list.tmp)
+0007.424 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.425 (0) Number of backup sets in history: 0; groups (db): 1
+0007.427 (0) Number of backup sets in history: 0; groups (files): 1
+0007.428 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.434 (0) Saving backup status to database (elements: 10)
+0007.436 (0) Beginning creation of database dump (WordPress DB)
+0007.437 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0007.439 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0007.449 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1448 bytes total)
+0007.450 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0007.456 (0) Table wp_options: Total expected rows (via COUNT): 515
+0007.533 (0) Table wp_options: Rows added in this batch (next record: 1055): 511 (uncompressed bytes in this segment=2179166) in 0.08 seconds
+0007.537 (0) Table wp_options: finishing file(s) (2, 477.5 KB)
+0007.540 (0) Table wp_users: Total expected rows (via COUNT): 2
+0007.541 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.543 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1356) in 0.00 seconds
+0007.546 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0007.550 (0) Table wp_usermeta: Total expected rows (via COUNT): 41
+0007.551 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.553 (0) Table wp_usermeta: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=6969) in 0.00 seconds
+0007.556 (0) Table wp_usermeta: finishing file(s) (2, 2.6 KB)
+0007.560 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 16
+0007.561 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.564 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 199): 16 (uncompressed bytes in this segment=8143) in 0.01 seconds
+0007.568 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0007.571 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0007.573 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0007.576 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0007.579 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0007.580 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.582 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=691) in 0.00 seconds
+0007.585 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0007.588 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 40
+0007.589 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.591 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 549): 40 (uncompressed bytes in this segment=4254) in 0.00 seconds
+0007.594 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0007.598 (0) Table wp_commentmeta: Total expected rows (via COUNT): 46
+0007.599 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.600 (0) Table wp_commentmeta: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=3974) in 0.00 seconds
+0007.604 (0) Table wp_commentmeta: finishing file(s) (2, 1 KB)
+0007.607 (0) Table wp_comments: Total expected rows (via COUNT): 24
+0007.608 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.611 (0) Table wp_comments: Rows added in this batch (next record: 25): 24 (uncompressed bytes in this segment=5991) in 0.01 seconds
+0007.616 (0) Table wp_comments: finishing file(s) (2, 2.1 KB)
+0007.619 (0) Table wp_links: Total expected rows (via COUNT): 0
+0007.622 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0007.626 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0007.631 (0) Table wp_postmeta: Total expected rows (via COUNT): 712
+0007.633 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.639 (0) Table wp_postmeta: Rows added in this batch (next record: 789): 712 (uncompressed bytes in this segment=207808) in 0.01 seconds
+0007.643 (0) Table wp_postmeta: finishing file(s) (2, 18.7 KB)
+0007.649 (0) Table wp_posts: Total expected rows (via COUNT): 230
+0007.650 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.662 (0) Table wp_posts: Rows added in this batch (next record: 1488): 230 (uncompressed bytes in this segment=398107) in 0.02 seconds
+0007.667 (0) Table wp_posts: finishing file(s) (2, 40.2 KB)
+0007.670 (0) Table wp_term_relationships: Total expected rows (approximate): 36
+0007.672 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 36 (uncompressed bytes in this segment=1214) in 0.00 seconds
+0007.675 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0007.678 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 24
+0007.679 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.682 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1748) in 0.01 seconds
+0007.686 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0007.690 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0007.692 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.00 seconds
+0007.696 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0007.699 (0) Table wp_terms: Total expected rows (via COUNT): 24
+0007.700 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.702 (0) Table wp_terms: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1458) in 0.00 seconds
+0007.705 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0007.709 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 9
+0007.710 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.713 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 293): 9 (uncompressed bytes in this segment=96088) in 0.01 seconds
+0007.718 (0) Table wp_aioseo_cache: finishing file(s) (2, 18.7 KB)
+0007.723 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 1
+0007.724 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.726 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2569) in 0.00 seconds
+0007.731 (0) Table wp_aioseo_notifications: finishing file(s) (2, 1.1 KB)
+0007.735 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 137
+0007.736 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.741 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 137): 137 (uncompressed bytes in this segment=131303) in 0.01 seconds
+0007.745 (0) Table wp_aioseo_posts: finishing file(s) (2, 4.8 KB)
+0007.748 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0007.750 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.00 seconds
+0007.753 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0007.756 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0007.757 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.00 seconds
+0007.760 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0007.764 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0007.766 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0007.769 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0007.772 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0007.774 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.00 seconds
+0007.778 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0007.782 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 1
+0007.783 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.786 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=678) in 0.01 seconds
+0007.791 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0007.792 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/u305902363/domains/bonlypurchase.com/public_html/wp-content/updraft/backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0007.794 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_options.table.tmpr1056.gz (1/24/fopen): adding to final database dump
+0007.799 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_options.table.gz (2/24/fopen): adding to final database dump
+0007.800 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_users.table.tmpr3.gz (3/24/fopen): adding to final database dump
+0007.801 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_users.table.gz (4/24/fopen): adding to final database dump
+0007.802 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_usermeta.table.tmpr42.gz (5/24/fopen): adding to final database dump
+0007.803 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_usermeta.table.gz (6/24/fopen): adding to final database dump
+0007.804 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_actions.table.tmpr200.gz (7/24/fopen): adding to final database dump
+0007.805 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_actions.table.gz (8/24/fopen): adding to final database dump
+0007.806 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/24/fopen): adding to final database dump
+0007.807 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_claims.table.gz (10/24/fopen): adding to final database dump
+0007.808 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/24/fopen): adding to final database dump
+0007.810 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_groups.table.gz (12/24/fopen): adding to final database dump
+0007.811 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_logs.table.tmpr550.gz (13/24/fopen): adding to final database dump
+0007.812 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_actionscheduler_logs.table.gz (14/24/fopen): adding to final database dump
+0007.813 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_commentmeta.table.tmpr47.gz (15/24/fopen): adding to final database dump
+0007.814 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_commentmeta.table.gz (16/24/fopen): adding to final database dump
+0007.815 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_comments.table.tmpr26.gz (17/24/fopen): adding to final database dump
+0007.816 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_comments.table.gz (18/24/fopen): adding to final database dump
+0007.817 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_links.table.tmpr0.gz (19/24/fopen): adding to final database dump
+0007.818 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_links.table.gz (20/24/fopen): adding to final database dump
+0007.820 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_postmeta.table.tmpr790.gz (21/24/fopen): adding to final database dump
+0007.821 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_postmeta.table.gz (22/24/fopen): adding to final database dump
+0007.822 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_posts.table.tmpr1489.gz (23/24/fopen): adding to final database dump
+0007.823 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_posts.table.gz (24/24/fopen): adding to final database dump
+0007.824 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_term_relationships.table.tmpr100001.gz (25/24/fopen): adding to final database dump
+0007.825 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_term_relationships.table.gz (26/24/fopen): adding to final database dump
+0007.826 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_term_taxonomy.table.tmpr25.gz (27/24/fopen): adding to final database dump
+0007.827 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_term_taxonomy.table.gz (28/24/fopen): adding to final database dump
+0007.828 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_termmeta.table.tmpr0.gz (29/24/fopen): adding to final database dump
+0007.829 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_termmeta.table.gz (30/24/fopen): adding to final database dump
+0007.830 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_terms.table.tmpr25.gz (31/24/fopen): adding to final database dump
+0007.831 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_terms.table.gz (32/24/fopen): adding to final database dump
+0007.832 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_aioseo_cache.table.tmpr294.gz (33/24/fopen): adding to final database dump
+0007.833 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_aioseo_cache.table.gz (34/24/fopen): adding to final database dump
+0007.834 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_aioseo_notifications.table.tmpr2.gz (35/24/fopen): adding to final database dump
+0007.835 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_aioseo_notifications.table.gz (36/24/fopen): adding to final database dump
+0007.836 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_aioseo_posts.table.tmpr138.gz (37/24/fopen): adding to final database dump
+0007.837 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_aioseo_posts.table.gz (38/24/fopen): adding to final database dump
+0007.838 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_litespeed_url.table.tmpr0.gz (39/24/fopen): adding to final database dump
+0007.839 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_litespeed_url.table.gz (40/24/fopen): adding to final database dump
+0007.840 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_litespeed_url_file.table.tmpr0.gz (41/24/fopen): adding to final database dump
+0007.841 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_litespeed_url_file.table.gz (42/24/fopen): adding to final database dump
+0007.842 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (43/24/fopen): adding to final database dump
+0007.843 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_wpforms_payment_meta.table.gz (44/24/fopen): adding to final database dump
+0007.844 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_wpforms_payments.table.tmpr0.gz (45/24/fopen): adding to final database dump
+0007.845 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_wpforms_payments.table.gz (46/24/fopen): adding to final database dump
+0007.846 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_wpforms_tasks_meta.table.tmpr2.gz (47/24/fopen): adding to final database dump
+0007.847 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db-table-wp_wpforms_tasks_meta.table.gz (48/24/fopen): adding to final database dump
+0007.850 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db.gz: finished writing out complete database file (575.5 KB)
+0007.858 (0) Total database tables backed up: 24 (backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db.gz, size: 589377, sha1: 7a489091b6289d024eb033e42ccfe985d403c114, sha256: 1682c4f39bdbfa0e5a63f3678e03f84898c83cce52c73ae833f838f29c5f6d33)
+0007.862 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-plugins.zip: plugins: This file has already been successfully uploaded
+0007.863 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-themes.zip: themes: This file has already been successfully uploaded
+0007.864 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-uploads.zip: uploads: This file has already been successfully uploaded
+0007.865 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0007.866 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-others.zip: others: This file has already been successfully uploaded
+0007.867 (0) backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0007.868 (0) Saving backup history. Total backup size: 70.7 MB
+0007.870 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0007.872 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.873 (0) No remote despatch: user chose no remote backup service
+0007.874 (0) Recording as successfully uploaded: backup_2024-01-19-2058_bonlypurchasecom_0564f9da54b8-db.gz
+0007.877 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.878 (0) Number of backup sets in history: 1; groups (db): 1
+0007.879 (0) Examining (for databases) backup set with group_id=0, nonce=0564f9da54b8, datestamp=1705669113 (Jan 19 2024 12:58:33)
+0007.880 (0) This backup set is the backup set just made, so will not be deleted.
+0007.880 (0) Number of backup sets in history: 1; groups (files): 1
+0007.881 (0) Examining (for files) backup set with nonce=0564f9da54b8, datestamp=1705669113 (Jan 19 2024 12:58:33)
+0007.881 (0) This backup set is the backup set just made, so will not be deleted.
+0007.882 (0) This backup set is the backup set just made, so will not be deleted.
+0007.883 (0) This backup set is the backup set just made, so will not be deleted.
+0007.883 (0) This backup set is the backup set just made, so will not be deleted.
+0007.883 (0) This backup set is the backup set just made, so will not be deleted.
+0007.883 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.884 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0007.886 (0) Resume backup (0564f9da54b8, 0): finish run
+0007.889 (0) Decremented the semaphore (fd) by 1
+0007.890 (0) Semaphore (fd) unlocked
+0007.891 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.893 (0) No email will/can be sent - the user has not configured an email address.
+0007.895 (0) The backup succeeded and is now complete
